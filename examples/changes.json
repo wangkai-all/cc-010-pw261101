@@ -1,0 +1,7 @@
+{
+  "changes": [
+    {"table": "raw_orders", "column": "status", "change": "drop"},
+    {"table": "raw_customers", "column": "full_name", "change": "rename", "new_name": "customer_name"},
+    {"table": "raw_orders", "column": "amount", "change": "type", "new_type": "DECIMAL(18,2)"}
+  ]
+}
